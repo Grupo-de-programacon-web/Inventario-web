@@ -7,9 +7,19 @@ h1 {
     text-align: center;
 }
 
-p, li {
+p,
+li {
     font-size: 18px;
 }
 
-form {text-align: center;
+.form-container {
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 50%;
+    display: grid;
+    margin: 0 auto;
 }
