@@ -38,7 +38,7 @@ li {
 }
 
 h1 {
-    color: rgb(6, 112, 103);
+    color: var(--primary);
     text-align: center;
 }
 
@@ -47,80 +47,6 @@ h1 {
 body {
     background-color: var(--gray);
     overflow-x: hidden;
-}
-
-.lateral {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--light);
-    width: 260px;
-    height: 100%;
-    z-index: 2;
-    scrollbar-width: none;
-    box-shadow: 2px 10px var(--gray);
-    transition: all 0.3s ease-in;
-}
-
-.lateral::-webkit-scrollbar {
-    display: none;
-}
-
-.lateral.close {
-    width: 60px;
-}
-
-.lateral .lm-menu {
-    width: 100%;
-    margin-top: 3rem;
-}
-
-.lateral .lm-menu li {
-    margin:  0.5rem 0;
-    height: 3rem;
-    background-color: transparent;
-}
-
-.lateral .lm-menu .li.active {
-    border-left: var(--success) 6px solid;
-    background: var(--dark);
-    transition: all 0.3s ease-in;
-}
-
-.lateral .logo {
-    display: flex;
-    align-items: center;
-    font-size: 1.7rem;
-    height: 56px;
-    color: var(--dark);
-    z-index: 1;
-    font-weight: 700;
-    margin: 1rem 0.5rem;
-}
-
-.lateral .logo span {
-    margin-left: 0.5rem;
-    color: var(--success);
-}
-
-.lateral .lm-menu li a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    white-space: nowrap;
-    overflow-x: hidden;
-    transition: all 0.3s ease;
-    color: var(--dark);
-}
-
-.lateral .lm-menu li.active a {
-    color: var(--success);
-}
-
-.lateral.close li .lm-menu li a {
-    width: calc(80px - 12px);
 }
 
 p,
