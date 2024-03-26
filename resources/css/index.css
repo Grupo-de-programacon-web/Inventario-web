@@ -21,86 +21,6 @@ h1 {
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-/* == Utilidades == */
-
-body {
-    background-color: var(--gray);
-    overflow-x: hidden;
-}
-
-
-li {
-    font-size: 18px;
-}
-
-.form-container {
-    display: flex;
-    place-items: center;
-    min-height: 100vh;
-}
-
-form {
-    width: 50%;
-    display: grid;
-    margin: 0 auto;
-}
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
-
-:root {
-    --light: #f6f6f9;
-    --primary: #1976d2;
-    --light-primary: #cfe8ff;
-    --gray: #eee;
-    --dark-gray: #aaa;
-    --dark: #363939;
-    --danger: #d32f2f;
-    --light-danger: #fecdd3;
-    --warning: #fbc02d;
-    --light-warning: #fff2c6;
-    --success: #388e3c;
-    --light-success: #bbf7d0;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "poppins", sans-serif;
-}
-
-.lm {
-    font-size: 1.7rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-h1 {
-    color: var(--primary);
-    text-align: center;
-}
-
-/* == Utilidades == */
-
-body {
-    background-color: var(--light);
-    overflow-x: hidden;
-}
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 p,
 li {
     font-size: 18px;
@@ -114,22 +34,10 @@ li {
     width: fit-content;
     flex-direction: column;
     place-items: center;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    min-height: 100vh;
-}
-
-form {
-    width: 50%;
-    display: grid;
-    margin: 0 auto;
-<<<<<<< HEAD
-=======
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
     background-color: white;
-    /* Color de fondo con transparencia */
 }
 
 .resumen-container {
@@ -154,78 +62,4 @@ tr {
 img {
     max-width: 100px;
     height: auto;
->>>>>>> Stashed changes
-=======
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('../imagenes/Comics-Fondo.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover;
-    font-family: Arial, sans-serif;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.form-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con transparencia */
-=======
->>>>>>> Stashed changes
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    background-color: white;
-    /* Color de fondo con transparencia */
-}
-
-.resumen-container {
-    text-align: center;
-    width: 300px;
-    /* Ancho del contenedor */
-}
-
-form {
-    display: grid;
-    margin: auto;
-}
-
-th,
-td,
-tr {
-    border: 2px solid darkgray;
-    padding: 10px;
-    text-align: center;
-}
-
-img {
-    max-width: 100px;
-    height: auto;
-<<<<<<< Updated upstream
-}
-
-p{
-    color:black;
-}
-
-.contenedor_2 {
-    background-color: white; /* Fondo blanco */
-    color: black; /* Texto negro */
-    padding: 20px;
-    border: 1px solid #ccc; /* Borde opcional */
-    border-radius: 5px; /* Bordes redondeados */
-    width: 300px; /* Ancho del contenedor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-.resumen-container{
-    background-image: url('../imagenes/Textura-Madera.jpeg'); /* Ruta de la imagen de fondo */
->>>>>>> 86af31a5a4f0636b42b14d38e0962fafc304562e
-=======
->>>>>>> Stashed changes
 }
