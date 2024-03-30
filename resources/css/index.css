@@ -49,7 +49,7 @@ body {
     overflow-x: hidden;
 }
 
-p,
+
 li {
     font-size: 18px;
 }
@@ -175,4 +175,28 @@ th {
 img {
     max-width: 100px;
     height: auto;
+}
+
+p{
+    color:black;
+}
+
+.contenedor_2 {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 300px; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+.resumen-container{
+    background-image: url('../imagenes/Textura-Madera.jpeg'); /* Ruta de la imagen de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
