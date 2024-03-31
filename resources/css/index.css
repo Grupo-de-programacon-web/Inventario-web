@@ -193,10 +193,4 @@ p{
 }
 .resumen-container{
     background-image: url('../imagenes/Textura-Madera.jpeg'); /* Ruta de la imagen de fondo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
 }
