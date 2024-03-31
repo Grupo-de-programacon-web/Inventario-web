@@ -22,6 +22,7 @@ h1 {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* == Utilidades == */
 
 body {
@@ -98,6 +99,8 @@ body {
 
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 p,
 li {
     font-size: 18px;
@@ -111,6 +114,7 @@ li {
     width: fit-content;
     flex-direction: column;
     place-items: center;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     min-height: 100vh;
 }
@@ -171,31 +175,38 @@ body {
 
 .form-container {
     background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con transparencia */
+=======
+>>>>>>> Stashed changes
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    background-color: white;
+    /* Color de fondo con transparencia */
+}
+
+.resumen-container {
+    text-align: center;
+    width: 300px;
+    /* Ancho del contenedor */
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    margin: auto;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+th,
+td,
+tr {
+    border: 2px solid darkgray;
+    padding: 10px;
+    text-align: center;
 }
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-th {
-    background-color: #f2f2f2;
-}
+
 img {
     max-width: 100px;
     height: auto;
+<<<<<<< Updated upstream
 }
 
 p{
@@ -215,4 +226,6 @@ p{
 .resumen-container{
     background-image: url('../imagenes/Textura-Madera.jpeg'); /* Ruta de la imagen de fondo */
 >>>>>>> 86af31a5a4f0636b42b14d38e0962fafc304562e
+=======
+>>>>>>> Stashed changes
 }
