@@ -1,36 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
 
-:root {
-    --light: #f6f6f9;
-    --primary: #1976d2;
-    --light-primary: #cfe8ff;
-    --gray: #eee;
-    --dark-gray: #aaa;
-    --dark: #363939;
-    --danger: #d32f2f;
-    --light-danger: #fecdd3;
-    --warning: #fbc02d;
-    --light-warning: #fff2c6;
-    --success: #388e3c;
-    --light-success: #bbf7d0;
-}
-
-* {
-    box-sizing: border-box;
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: "poppins", sans-serif;
-}
-
-.lm {
-    font-size: 1.7rem;
+    background-image: url('../imagenes/Comics-Fondo.jpg');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
+    text-align: inherit;
 }
 
 li {
@@ -38,15 +18,7 @@ li {
 }
 
 h1 {
-    color: var(--primary);
     text-align: center;
-}
-
-/* == Utilidades == */
-
-body {
-    background-color: var(--gray);
-    overflow-x: hidden;
 }
 
 p,
@@ -54,81 +26,40 @@ li {
     font-size: 18px;
 }
 
-.form-container {
+.form-container,
+.resumen-container {
     display: flex;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
     place-items: center;
-    min-height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.resumen-container {
+    text-align: center;
+    width: 300px;
+    /* Ancho del contenedor */
 }
 
 form {
-    width: 50%;
     display: grid;
-    margin: 0 auto;
-}
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
-
-:root {
-    --light: #f6f6f9;
-    --primary: #1976d2;
-    --light-primary: #cfe8ff;
-    --gray: #eee;
-    --dark-gray: #aaa;
-    --dark: #363939;
-    --danger: #d32f2f;
-    --light-danger: #fecdd3;
-    --warning: #fbc02d;
-    --light-warning: #fff2c6;
-    --success: #388e3c;
-    --light-success: #bbf7d0;
+    margin: auto;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "poppins", sans-serif;
-}
-
-.lm {
-    font-size: 1.7rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-h1 {
-    color: var(--primary);
+th,
+td,
+tr {
+    border: 2px solid darkgray;
+    padding: 10px;
     text-align: center;
 }
 
-/* == Utilidades == */
-
-body {
-    background-color: var(--light);
-    overflow-x: hidden;
-}
-
-p,
-li {
-    font-size: 18px;
-}
-
-.form-container {
-    display: flex;
-    place-items: center;
-    min-height: 100vh;
-}
-
-form {
-    width: 50%;
-    display: grid;
-    margin: 0 auto;
+img {
+    max-width: 100px;
+    height: auto;
 }
