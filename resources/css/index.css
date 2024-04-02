@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
 
 :root {
-    --color-fodo: rgba(182, 61, 61, 0.6);
+    --color-fodo: rgba(195, 138, 68, 0.6);
 }
 
 body {
@@ -44,8 +44,8 @@ li {
     place-items: center;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #ccc;
-    background-color: white;
+    border: 3px solid #000000;
+    background-color: rgb(220, 114, 114);
 }
 
 .resumen-container {
