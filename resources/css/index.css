@@ -7,13 +7,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(var(--color-fodo), var(--color-fodo)),url('../imagenes/Comics-Fondo-Definitivo.jpg');
+    background-image: linear-gradient(var(--color-fodo), var(--color-fodo)),url('../imagenes/Comics-Fondo.jpg');
     /* Ruta de la imagen de fondo */
     background-size: cover;
 }
 
 body::after {
-    background: rgba(55, 0, 255, 0.5);
+    background:  #EC008C;
 }
 
 a {
@@ -34,18 +34,29 @@ li {
     font-size: 18px;
 }
 
+.portada-continer,
 .form-container,
 .resumen-container {
     display: flex;
     margin: auto;
     height: fit-content;
     width: fit-content;
-    flex-direction: column;
+    flex-direction: row;
     place-items: center;
     padding: 20px;
     border-radius: 10px;
     border: 3px solid #000000;
+}
+
+.form-container,
+.resumen-container {
+    flex-direction: column;
     background-color: rgb(219, 219, 219);
+    /* centrar contenedor */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%) translateX(50%);
 }
 
 .resumen-container {
