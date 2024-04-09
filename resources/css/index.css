@@ -12,9 +12,6 @@ body {
     background-size: cover;
 }
 
-body::after {
-    background:  #EC008C;
-}
 
 a {
     text-decoration: none;
@@ -74,7 +71,7 @@ form {
 th,
 td,
 tr {
-    border: 2px solid darkgray;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
 }
