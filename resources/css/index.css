@@ -22,7 +22,7 @@ li {
     list-style-type: none;
 }
 
-h1 {
+h1,em {
     text-align: center;
     font-family: "Permanent Marker", cursive;
 }
@@ -61,6 +61,30 @@ li {
     text-align: center;
     width: 300px;
     /* Ancho del contenedor */
+}
+
+.agregar-container {
+    background-color: rgb(219, 219, 219);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    height:300px;
+    width: 900px;
+    top: 50%;
+    right: 50%;
+    transform: translateY(10%) translateX(60%);
+}
+
+.prod-registrados {
+    background-color: rgb(219, 219, 219);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    height:300px;
+    width: 900px;
+    top: 50%;
+    right: 50%;
+    transform: translateY(10%) translateX(60%);
 }
 
 form {
