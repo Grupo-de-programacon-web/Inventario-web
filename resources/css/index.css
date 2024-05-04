@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
 
 :root {
+    --colorfond: rgba(225, 203, 32, 0.753);
     --color-fodo: rgba(195, 138, 68, 0.6);
 }
 
@@ -45,9 +46,9 @@ li {
     border-radius: 10px;
     border: 3px solid #000000;
     font-family: "Permanent Marker", cursive;
+    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
 }
 
-.form-container,
 .resumen-container {
     flex-direction: column;
     background-color: rgb(219, 219, 219);
@@ -65,32 +66,36 @@ li {
     /* Ancho del contenedor */
 }
 
-.agregar-container {
-    background-color: rgb(219, 219, 219);
+.container{
+    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Permanent Marker", cursive;
+    flex-direction: column;
+}
+
+.container-md{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 21px;
+    font-family: "Permanent Marker", cursive;
+    flex-direction: column;
+    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
+}
+
+.container-lg {
+    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
     border: 3px solid #000000;
     border-radius: 10px;
     padding: 20px;
-    height:300px;
-    width: 900px;
-    top: 50%;
-    right: 50%;
-    transform: translateY(10%) translateX(60%);
     font-family: "Permanent Marker", cursive;
 }
 
-.prod-registrados {
-    background-color: rgb(219, 219, 219);
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 20px;
-    height:300px;
-    width: 900px;
-    top: 50%;
-    right: 50%;
-    transform: translateY(10%) translateX(60%);
-    font-family: "Permanent Marker", cursive;
+.container-fluid{
+    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
+    border: 1px solid #000000;
 }
-
 form {
     display: grid;
     margin: auto;
