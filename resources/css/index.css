@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
 
 :root {
-    --colorfond: rgba(225, 203, 32, 0.753);
+    --colorfond: rgba(175, 161, 55, 0.753);
     --color-fodo: rgba(195, 138, 68, 0.6);
 }
 
@@ -47,6 +47,10 @@ li {
     border: 3px solid #000000;
     font-family: "Permanent Marker", cursive;
     background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
+    text-shadow: 1px  0px 0px rgb(233, 227, 227),
+                0px  1px 0px rgb(233, 227, 227),
+                -1px  0px 0px rgb(233, 227, 227),
+                0px -1px 0px rgb(233, 227, 227);
 }
 
 .resumen-container {
@@ -60,10 +64,10 @@ li {
     font-family: "Permanent Marker", cursive;
 }
 
+/* Ancho del contenedor */
 .resumen-container {
     text-align: center;
     width: 300px;
-    /* Ancho del contenedor */
 }
 
 .container{
@@ -73,8 +77,13 @@ li {
     padding: 10px;
     font-family: "Permanent Marker", cursive;
     flex-direction: column;
+    text-shadow: 1px  0px 0px rgb(233, 227, 227),
+                0px  1px 0px rgb(233, 227, 227),
+                -1px  0px 0px rgb(233, 227, 227),
+                0px -1px 0px rgb(233, 227, 227);
 }
 
+/* Container Stock */
 .container-md{
     border: 3px solid #000000;
     border-radius: 10px;
@@ -82,6 +91,10 @@ li {
     font-family: "Permanent Marker", cursive;
     flex-direction: column;
     background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
+    text-shadow: 1px  0px 0px rgb(233, 227, 227),
+                0px  1px 0px rgb(233, 227, 227),
+                -1px  0px 0px rgb(233, 227, 227),
+                0px -1px 0px rgb(233, 227, 227);
 }
 
 .container-lg {
@@ -90,6 +103,10 @@ li {
     border-radius: 10px;
     padding: 20px;
     font-family: "Permanent Marker", cursive;
+    text-shadow: 1px  0px 0px rgb(233, 227, 227),
+                0px  1px 0px rgb(233, 227, 227),
+                -1px  0px 0px rgb(233, 227, 227),
+                0px -1px 0px rgb(233, 227, 227);
 }
 
 .container-fluid{
