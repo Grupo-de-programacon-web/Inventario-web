@@ -45,17 +45,11 @@ li {
     padding: 20px;
     border-radius: 10px;
     border: 3px solid #000000;
-    font-family: "Permanent Marker", cursive;
-    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
-    text-shadow: 1px  0px 0px rgb(233, 227, 227),
-                0px  1px 0px rgb(233, 227, 227),
-                -1px  0px 0px rgb(233, 227, 227),
-                0px -1px 0px rgb(233, 227, 227);
+    background-color: rgb(219, 219, 219);
 }
 
 .resumen-container {
     flex-direction: column;
-    background-color: rgb(219, 219, 219);
     /* centrar contenedor */
     position: absolute;
     top: 50%;
@@ -68,58 +62,6 @@ li {
 .resumen-container {
     text-align: center;
     width: 300px;
-}
-
-.container{
-    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: "Permanent Marker", cursive;
-    flex-direction: column;
-    text-shadow: 1px  0px 0px rgb(233, 227, 227),
-                0px  1px 0px rgb(233, 227, 227),
-                -1px  0px 0px rgb(233, 227, 227),
-                0px -1px 0px rgb(233, 227, 227);
-}
-
-/* Container Stock */
-.container-md{
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 21px;
-    font-family: "Permanent Marker", cursive;
-    flex-direction: column;
-    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
-    text-shadow: 1px  0px 0px rgb(233, 227, 227),
-                0px  1px 0px rgb(233, 227, 227),
-                -1px  0px 0px rgb(233, 227, 227),
-                0px -1px 0px rgb(233, 227, 227);
-}
-
-.container-lg {
-    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: "Permanent Marker", cursive;
-    text-shadow: 1px  0px 0px rgb(233, 227, 227),
-                0px  1px 0px rgb(233, 227, 227),
-                -1px  0px 0px rgb(233, 227, 227),
-                0px -1px 0px rgb(233, 227, 227);
-}
-
-.container-fluid{
-    background-image: linear-gradient(var(--colorfond), var(--colorfond)),url('../imagenes/Puntos-Comic-Fondo.jpg');
-    border: 1px solid #000000;
-}
-
-.navbar-main{
-    font-family: "Permanent Marker", cursive;
-    text-shadow: 1px  0px 0px rgb(233, 227, 227),
-                0px  1px 0px rgb(233, 227, 227),
-                -1px  0px 0px rgb(233, 227, 227),
-                0px -1px 0px rgb(233, 227, 227);
 }
 
 form {
